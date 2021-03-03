@@ -9,7 +9,7 @@
 На тестирование затрачено: 1 час
 
 В результате тестирования  выявлены следующие дефекты:
-[Не принимаются валидные ключи](https://github.com/eaasy0/KeyValidator-1.1-HW/issues/1)
+[Не принимается валидный номер карты American Express](https://github.com/eaasy0/Credit-Card-Number-Validator-1.2/issues/1)
 
 
 
