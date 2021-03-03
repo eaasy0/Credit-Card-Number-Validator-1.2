@@ -1,28 +1,25 @@
-## Отчёт о тестировании
+# Отчёт о тестировании <Валидаций номера банковской карты>
 
-###### **Валидация номера банковской карты**
+## Краткое описание
 
-03.03.2021 - 03.03.2021 
-
-Было проведено функциональное тестирование валидации номера банковской карты
+03.03.2021 - 03.03.2021  Было проведено функциональное тестирование валидации номера банковской карты
 
 На тестирование затрачено: 1 час
 
-В результате тестирования  выявлены следующие дефекты:
-[Не принимается валидный номер карты American Express](https://github.com/eaasy0/Credit-Card-Number-Validator-1.2/issues/1)
+В результате тестирования выявлены следующие дефекты:
+* [Не принимаются валидные номера карт](https://github.com/eaasy0/Credit-Card-Number-Validator-1.2/issues/1)
 
 
+## Описание процесса тестирования
 
+В процессе тестирования использовались следующие артефакты*:
+* [Руководство по установке IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
+* [Тестовые данные](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)
 
-
-В процессе тестирования использовался следующий _Test Case_:
-1. Устанавливаем [IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
-2. Заменяем код с "Hello programming!" целиком на тот, который представлен в документации
-3. Вводим валидные номера карт VISA, Mastercard, Discover, American Express в 4 строке
+В качестве тестовых данных использовались [данные](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)
 
 Тестирование производилось в следующем окружении:
+* Windows 10 x64 (19041.804)  
+* Java 11.0.5
 
-Windows 10 x64 (19041.804)  
-Java 11.0.5
-
-IntelliJ IDEA Community Edition
+* IntelliJ IDEA Community Edition
